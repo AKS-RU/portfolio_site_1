@@ -6,6 +6,7 @@
 :root {
     --accent_color: #34547A;
     --silver_color: #EEEFF1;
+    --width-1920: 1920px;
 }
 
 html {
@@ -33,10 +34,19 @@ p {
   padding: 0;
   margin: 0;
 }
+body {
+    background-color: #E5E5E5;
+}
 
+.block_ctm {
+    max-width: var(--width-1920);
+    margin: 0 auto;
+    background-color: #EEEFF1;
+}
 .container_cst {
     max-width: 1150px;
     margin: 0 auto;
+
 }
 
 /* first-screen */
@@ -74,7 +84,7 @@ p {
 .first-screen_cst__menu-a:hover {
     cursor: pointer;
     color: var(--accent_color);
-}
+    }
 .first-screen_cst__menu a {
     padding-right: 42px;
 }
