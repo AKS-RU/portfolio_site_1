@@ -1,0 +1,126 @@
+@font-face {
+    font-family: "Revalia";
+    src: url(../fonts/Revalia-Regular.ttf);
+}
+
+:root {
+    --accent_color: #34547A;
+    --silver_color: #EEEFF1;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  padding: 0;
+  margin: 0;
+}
+
+.container_cst {
+    max-width: 1150px;
+    margin: 0 auto;
+}
+
+/* first-screen */
+.first-screen_cst {
+}
+
+.first-screen_cst__menu-flex {
+    display: flex;
+}
+.first-screen_cst__menu-logo {
+    padding-top: 42px;
+    padding-left: 23px;
+    padding-right: 402px;
+    font-family: "Revalia", sans-serif;
+    font-size: 48px;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: #34547A;
+}
+.first-screen_cst__menu {
+    padding-top: 60px;
+    display: flex;
+    font-family: "Roboto";
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 1.67em;
+    letter-spacing: 0.1em;
+
+}
+.first-screen_cst__menu-a{
+    color: #000;
+    text-decoration: none;
+}
+.first-screen_cst__menu-a:hover {
+    cursor: pointer;
+    color: var(--accent_color);
+}
+.first-screen_cst__menu a {
+    padding-right: 42px;
+}
+.first-screen_cst__menu a:last-child {
+    padding-right: 0;
+}
+.first-screen_cst__contents {
+    display: flex;
+    padding-top: 130px;
+    padding-left: 101px;
+}
+.container_cst-img img{
+    max-width: 357px;
+    padding-top: 32px;
+    margin-right: 131px;
+    }
+.first-screen_cst__content {
+}
+.first-screen_cst__content h1 {
+    font-family: "Roboto";
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.67em;
+}
+.first-screen_cst__content p {
+    padding-top: 36px;
+    font-family: "Roboto";
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0.05em;
+    color: #727272;
+}
+.first-screen_cst__content button {
+    width: 225px;
+    height: 65px;
+    margin-top: 60px;
+    background-color: #34547A;
+    color: white;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.64em;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 146px;
+}
