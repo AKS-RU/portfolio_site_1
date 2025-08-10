@@ -235,9 +235,11 @@ body {
 /* video_ctm */
 .video_ctm {
 
+
 }
 .video_ctm .block_ctm {
     background-color: var(--silver_color);
+    padding-bottom: 100px;
 }
 .video_ctm__title {
     padding-top: 92px;
@@ -249,6 +251,61 @@ body {
 }
 .sample-p {
     padding-bottom: 52px;
+}
+.video_ctm__video-container {
+    max-width: 1110px;
+    height: 600px;
+    margin: 0 auto;
+    width: 100%;
+
+}
+.video_ctm__video-container video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* или contain — смотри ниже */
+}
+
+/* projects */
+.projects_ctm {
+    padding-top: 28px;
+}
+.projects_ctm__grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+.projects_ctm__grid-item {
+    max-width: 480px;
+}
+.materialboxed {
+    cursor: url(../img/Eye_cursor.png), zoom-in;
+
+}
+.materialboxed.active {
+    cursor: -webkit-zoom-out;
+    cursor: url(../img/Eye_cursor.png), zoom-out;
+}
+.image-wrapper {
+    position: relative;
+    display: block;
+}
+.image-wrapper::before {
+    content: "";
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(52, 84, 122, 0.7);
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+    z-index: 1;
+}
+.image-wrapper:hover::before {
+    opacity: 1 !important;
 }
 
 
