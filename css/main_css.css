@@ -305,7 +305,7 @@ body {
     z-index: 1;
 }
 .image-wrapper:hover::before {
-    opacity: 1 !important;
+    opacity: 1;
 }
 
 
