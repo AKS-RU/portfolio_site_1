@@ -249,7 +249,7 @@ body {
 .video_ctm__title .sample-h2 {
     padding-bottom: 32px;
 }
-.sample-p {
+.video_ctm .sample-p {
     padding-bottom: 52px;
 }
 .video_ctm__video-container {
@@ -307,6 +307,126 @@ body {
 .image-wrapper:hover::before {
     opacity: 1;
 }
+
+/* clients */
+.clients_ctm {
+}
+.clients_ctm__grid {
+    padding-top: 72px;
+    padding-left: 15px;
+    padding-bottom: 100px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 13px;
+
+}
+
+/* form */
+.form_ctm {
+}
+.form_ctm .block_ctm {
+    background-color: var(--silver_color);
+}
+.form_ctm__inner{
+    max-width: 540px;
+    margin: 0 auto;
+    padding-bottom: 101px;
+}
+.form_ctm .sample-h2 {
+    padding-top: 86px;
+}
+.form_ctm__inner .sample-p {
+    padding-top: 33px;
+    line-height: 26px;
+    letter-spacing: 0.001em;
+    text-align: center;
+
+}
+.form_ctm__input-grid {
+    padding-top: 60px;
+    padding-bottom: 15px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+#name,
+#email,
+#message {
+    background-color: #fff;
+    border: none;
+    padding-left: 19px;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: left;
+}
+#name::placeholder,
+#email::placeholder,
+#message::placeholder {
+    color: #5F5D5D;
+    font-size: 14px;
+    letter-spacing: 0.0001em;
+}
+#message {
+    height: 175px;
+    padding: 13px 19px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.form_ctm__inner button {
+    margin-top: 43px;
+    margin-left: 174px;
+    width: 190px;
+    height: 55px;
+    background-color: var(--accent_color);
+    font-family: "Roboto";
+    font-size: 14;
+    line-height: 1.6em;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.footer_ctm {
+}
+.footer_ctm .block_ctm {
+    background-color: var(--accent_color);
+}
+.footer_ctm_flex {
+    display: flex;
+    justify-content: center;
+}
+.footer_ctm__text {
+    margin-right: 739px;
+}
+.footer_ctm__text-h3,
+.footer_ctm__text-p {
+    padding-left: 20px;
+    color: #fff;
+}
+
+
+.footer_ctm__text-h3 {
+    padding-top: 50px;
+    font-family: "Roboto";
+    font-size: 20px;
+}
+.footer_ctm__text-p {
+    padding-top: 13px;
+    margin-bottom: 50px;
+}
+.footer_ctm-grid {
+    padding-top: 64px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 22px;
+}
+
+
+
 
 
 
