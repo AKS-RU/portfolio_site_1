@@ -161,8 +161,6 @@ body {
   text-transform: uppercase;
   border: none;
   border-radius: 5px;
-}
-.first-screen_ctm__content button:hover{
   cursor: pointer;
 }
 
