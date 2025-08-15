@@ -162,6 +162,9 @@ body {
   border: none;
   border-radius: 5px;
 }
+.first-screen_ctm__content button:hover{
+  cursor: pointer;
+}
 
 .about-me_ctm h2 {
   padding-top: 109px;
